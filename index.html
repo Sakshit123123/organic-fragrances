@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Fragrances | From Flowers to Fragrance</title>
+    
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. Announcement Bar -->
+    <div class="announcement-bar">
+        FREE DELIVERY ON ORDERS ₹199+
+    </div>
+
+    <!-- 2. Sticky Navbar -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="index.html">ORGANIC FRAGRANCES</a></div>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="process.html">Our Process</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="nav-icons">
+                    <div class="hamburger-menu" id="hamburger-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <a href="wishlist.html" style="position: relative;">
+                        <i class="fas fa-heart"></i>
+                        <span class="icon-badge" id="wishlist-badge">0</span>
+                    </a>
+                    <a href="cart.html" style="position: relative;">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="icon-badge" id="cart-badge">0</span>
+                    </a>
+                    <a href="account.html" title="Customer Account"><i class="fas fa-user"></i></a>
+                    <a href="admin-login.html" class="admin-nav-link" title="Admin Portal" aria-label="Admin Login">
+                        <i class="fas fa-user-shield"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. Hero Section -->
+        <section class="hero" style="height: 100vh; padding: 0; position: relative; overflow: hidden; display: flex; align-items: center;">
+            <div class="hero-image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+                <img src="../assets/images/hero-bg.jpg" alt="Organic Flowers" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.65);">
+            </div>
+            <div class="container">
+                <div class="hero-content" style="color: var(--off-white); max-width: 700px;" data-reveal>
+                    <span style="font-size: 1rem; text-transform: uppercase; letter-spacing: 0.3em; color: var(--subtle-gold); font-weight: 600; margin-bottom: 1rem; display: block;">Pure Flower Dhoop</span>
+                    <h1 style="font-size: 4.5rem; line-height: 1.1; margin-bottom: 1.5rem; color: var(--off-white); font-weight: 700; font-family: 'Cormorant Garamond', serif;">Giving Flowers a Beautiful Second Life</h1>
+                    <p style="font-size: 1.2rem; margin-bottom: 2.5rem; letter-spacing: 0.05em; opacity: 0.95; line-height: 1.6;">
+                        Experience premium, 100% charcoal-free dhoop sticks, handcrafted using sacred temple flowers. Sustaining local artisans, protecting our rivers, and bringing the pure fragrance of nature to your home.
+                    </p>
+                    <div class="hero-btns" style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                        <a href="products.html" class="btn btn-primary" style="background-color: var(--subtle-gold); color: white; border-radius: 4px;">Shop Now</a>
+                        <a href="products.html" class="btn btn-secondary" style="border-color: var(--off-white); color: var(--off-white); border-radius: 4px; background: rgba(255,255,255,0.05);">Explore Products</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Brand Introduction -->
+        <section class="brand-intro" style="background-color: var(--cream); padding: 7rem 0;">
+            <div class="container">
+                <div style="display: flex; align-items: center; gap: 5rem; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 300px;" data-reveal>
+                        <span style="text-transform: uppercase; letter-spacing: 0.2em; color: var(--sage-green); margin-bottom: 1rem; font-weight: 600; display: block; font-size: 0.9rem;">Our Sacred Vision</span>
+                        <h2 style="font-size: 3rem; margin-bottom: 2rem; line-height: 1.2; font-family: 'Cormorant Garamond', serif; color: var(--deep-green);">Repurposing Temple Offerings with Love</h2>
+                        <p style="margin-bottom: 1.5rem; font-size: 1.05rem; line-height: 1.8; color: var(--text-color); opacity: 0.9;">
+                            At Organic Fragrances, we believe in restoring the harmony of nature. Every year, millions of tons of flowers are offered in sacred temples across India, only to be discarded in our pristine rivers later. We steps in to give these sacred blossoms a beautiful second life.
+                        </p>
+                        <p style="margin-bottom: 2rem; font-size: 1.05rem; line-height: 1.8; color: var(--text-color); opacity: 0.9;">
+                            We meticulously collect these fresh floral offerings, sun-dry their petals, and blend them with natural essential oils, resins, and organic herbs. Handrolled by local women artisans, our dhoop sticks are 100% charcoal-free, preserving pure floral essence and uplifting communities.
+                        </p>
+                        <a href="about.html" class="btn btn-secondary" style="border-radius: 4px;">Read Our Full Story</a>
+                    </div>
+                    <div style="flex: 1; min-width: 300px; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;" data-reveal>
+                        <img src="../assets/images/rose-category.jpg" alt="Rose Buds" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px; box-shadow: 0 10px 25px rgba(0,0,0,0.03);">
+                        <img src="../assets/images/product-5.jpg" alt="Artisan Hands" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px; box-shadow: 0 10px 25px rgba(0,0,0,0.03); margin-top: 2rem;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Featured Products -->
+        <section class="featured-products" style="background-color: var(--off-white); padding: 7rem 0;">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <p>Most Loved</p>
+                    <h2 style="font-size: 3rem; font-family: 'Cormorant Garamond', serif;">Featured Creations</h2>
+                </div>
+                <!-- Dynamic grid populated via productsData inside main.js -->
+                <div id="featured-products-container" class="products-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.5rem 1.8rem; margin-top: 3rem;">
+                    <!-- Injected dynamically in JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Why Choose Us -->
+        <section class="why-choose-us" style="background-color: var(--cream); padding: 7rem 0; border-top: 1px solid rgba(27,48,34,0.03); border-bottom: 1px solid rgba(27,48,34,0.03);">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <p>The Organic Promise</p>
+                    <h2 style="font-size: 3rem; font-family: 'Cormorant Garamond', serif;">Why Choose Us</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2.5rem; text-align: center; margin-top: 3rem;">
+                    <div style="background-color: var(--off-white); padding: 3rem 2rem; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.02); border: 1px solid rgba(27,48,34,0.02);" data-reveal>
+                        <i class="fas fa-leaf" style="font-size: 2.5rem; color: var(--subtle-gold); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-family: 'Cormorant Garamond', serif; font-weight: 600;">100% Flower-Based</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.85; line-height: 1.6;">Made completely from upcycled temple flowers, minimizing organic waste in rivers.</p>
+                    </div>
+                    <div style="background-color: var(--off-white); padding: 3rem 2rem; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.02); border: 1px solid rgba(27,48,34,0.02);" data-reveal>
+                        <i class="fas fa-wind" style="font-size: 2.5rem; color: var(--subtle-gold); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Carefully Crafted</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.85; line-height: 1.6;">Blended with authentic essential oils and natural resins for pure, lingering scents.</p>
+                    </div>
+                    <div style="background-color: var(--off-white); padding: 3rem 2rem; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.02); border: 1px solid rgba(27,48,34,0.02);" data-reveal>
+                        <i class="fas fa-box-open" style="font-size: 2.5rem; color: var(--subtle-gold); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Premium Packaging</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.85; line-height: 1.6;">Aesthetically crafted box design keeping fragrances intact, perfect for green gifting.</p>
+                    </div>
+                    <div style="background-color: var(--off-white); padding: 3rem 2rem; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.02); border: 1px solid rgba(27,48,34,0.02);" data-reveal>
+                        <i class="fas fa-square-poll-horizontal" style="font-size: 2.5rem; color: var(--subtle-gold); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Convenient Ordering</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.85; line-height: 1.6;">Streamlined web checkout with real-time tracking and customer support.</p>
+                    </div>
+                    <div style="background-color: var(--off-white); padding: 3rem 2rem; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.02); border: 1px solid rgba(27,48,34,0.02);" data-reveal>
+                        <i class="fas fa-shipping-fast" style="font-size: 2.5rem; color: var(--subtle-gold); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem; font-size: 1.5rem; font-family: 'Cormorant Garamond', serif; font-weight: 600;">Delivery Guarantee</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.85; line-height: 1.6;">Insured shipping across the country, delivered safely directly to your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Flower-to-Dhoop / Our Process -->
+        <section class="process-flow" style="background-color: var(--off-white); padding: 7rem 0;">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <p>The Sacred Flow</p>
+                    <h2 style="font-size: 3rem; font-family: 'Cormorant Garamond', serif;">Our Flower-to-Dhoop Journey</h2>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap; margin-top: 4rem;">
+                    
+                    <!-- Step 1 -->
+                    <div style="flex: 1; min-width: 200px; text-align: center; position: relative;" data-reveal>
+                        <div style="width: 80px; height: 80px; background-color: var(--cream); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; border: 1px solid rgba(27,48,34,0.1);">
+                            <i class="fas fa-spa" style="font-size: 1.8rem; color: var(--subtle-gold);"></i>
+                        </div>
+                        <h4 style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.8rem; font-family: 'Cormorant Garamond', serif;">1. Fresh Flowers</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">Sacred temple floral offerings are retrieved daily.</p>
+                    </div>
+
+                    <!-- Arrow 1 -->
+                    <div style="align-self: center; color: var(--sage-green); font-size: 1.5rem; opacity: 0.5;" class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+
+                    <!-- Step 2 -->
+                    <div style="flex: 1; min-width: 200px; text-align: center; position: relative;" data-reveal>
+                        <div style="width: 80px; height: 80px; background-color: var(--cream); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; border: 1px solid rgba(27,48,34,0.1);">
+                            <i class="fas fa-sun" style="font-size: 1.8rem; color: var(--subtle-gold);"></i>
+                        </div>
+                        <h4 style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.8rem; font-family: 'Cormorant Garamond', serif;">2. Collection & Drying</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">Flowers are meticulously sorted and sun-dried for purity.</p>
+                    </div>
+
+                    <!-- Arrow 2 -->
+                    <div style="align-self: center; color: var(--sage-green); font-size: 1.5rem; opacity: 0.5;" class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+
+                    <!-- Step 3 -->
+                    <div style="flex: 1; min-width: 200px; text-align: center; position: relative;" data-reveal>
+                        <div style="width: 80px; height: 80px; background-color: var(--cream); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; border: 1px solid rgba(27,48,34,0.1);">
+                            <i class="fas fa-hands" style="font-size: 1.8rem; color: var(--subtle-gold);"></i>
+                        </div>
+                        <h4 style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.8rem; font-family: 'Cormorant Garamond', serif;">3. Dhoop Making</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">Dried petals are pulverized and handrolled by women artisans.</p>
+                    </div>
+
+                    <!-- Arrow 3 -->
+                    <div style="align-self: center; color: var(--sage-green); font-size: 1.5rem; opacity: 0.5;" class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+
+                    <!-- Step 4 -->
+                    <div style="flex: 1; min-width: 200px; text-align: center; position: relative;" data-reveal>
+                        <div style="width: 80px; height: 80px; background-color: var(--cream); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; border: 1px solid rgba(27,48,34,0.1);">
+                            <i class="fas fa-wand-magic-sparkles" style="font-size: 1.8rem; color: var(--subtle-gold);"></i>
+                        </div>
+                        <h4 style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.8rem; font-family: 'Cormorant Garamond', serif;">4. Natural Fragrance</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">Infused with plant extracts and pure essential resins.</p>
+                    </div>
+
+                    <!-- Arrow 4 -->
+                    <div style="align-self: center; color: var(--sage-green); font-size: 1.5rem; opacity: 0.5;" class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+
+                    <!-- Step 5 -->
+                    <div style="flex: 1; min-width: 200px; text-align: center; position: relative;" data-reveal>
+                        <div style="width: 80px; height: 80px; background-color: var(--cream); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; border: 1px solid rgba(27,48,34,0.1);">
+                            <i class="fas fa-gift" style="font-size: 1.8rem; color: var(--subtle-gold);"></i>
+                        </div>
+                        <h4 style="font-size: 1.3rem; font-weight: 600; margin-bottom: 0.8rem; font-family: 'Cormorant Garamond', serif;">5. Finished Product</h4>
+                        <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.5;">Eco-friendly packed premium dhoop delivered to your sanctuary.</p>
+                    </div>
+
+                </div>
+                <div style="text-align: center; margin-top: 4rem;" data-reveal>
+                    <a href="process.html" class="btn btn-secondary" style="border-radius: 4px;">Learn Complete Process</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Video Section -->
+        <section class="video-section" style="padding: 0; background-color: var(--deep-green); color: white; overflow: hidden;">
+            <div class="video-grid-container" style="display: flex; height: 550px;">
+                <div class="video-text-content" style="flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 5rem;" data-reveal>
+                    <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.25em; color: var(--subtle-gold); font-weight: 600; margin-bottom: 1rem; display: block;">Artisan Crafted</span>
+                    <h2 style="color: white; font-size: 3rem; margin-bottom: 1.5rem; font-family: 'Cormorant Garamond', serif; line-height: 1.2;">Pure Essence in Motion</h2>
+                    <p style="opacity: 0.85; margin-bottom: 2rem; font-size: 1.05rem; line-height: 1.7;">
+                        Watch our handcrafted dhoop rolling process where pure devotion meets sustainability. Every single dhoop stick is meticulously rolled with love, utilizing only the purest flora, wood dust, and organic natural resins.
+                    </p>
+                </div>
+                <div class="video-player-container" style="flex: 1; position: relative;">
+                    <video controls autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+                        <source src="../assets/video/brand-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Delivery Promotion -->
+        <section class="delivery-promo" style="background-color: var(--cream); padding: 5rem 0; border-bottom: 1px solid rgba(27,48,34,0.03);">
+            <div class="container">
+                <div style="background-color: var(--deep-green); color: white; padding: 4rem 3rem; border-radius: 8px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05);" data-reveal>
+                    <i class="fas fa-truck-fast" style="font-size: 3.5rem; color: var(--subtle-gold); margin-bottom: 1.5rem;"></i>
+                    <h2 style="color: white; font-size: 2.8rem; margin-bottom: 1rem; font-family: 'Cormorant Garamond', serif;">Free National Delivery</h2>
+                    <p style="font-size: 1.2rem; max-width: 600px; margin-bottom: 1.5rem; opacity: 0.95; font-weight: 300; letter-spacing: 0.05em;">Enjoy <strong style="color: var(--subtle-gold); font-weight: 600;">FREE SHIPPING</strong> on all orders of <strong style="color: var(--subtle-gold); font-weight: 600;">₹199 or more</strong>!</p>
+                    <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; width: 100%; max-width: 700px;">
+                        <div style="flex: 1; min-width: 200px;">
+                            <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.7; display: block; margin-bottom: 0.5rem;">For Orders Below ₹199</span>
+                            <span style="font-size: 1.4rem; font-weight: 600; color: var(--subtle-gold); font-family: 'Cormorant Garamond', serif; letter-spacing: 0.05em;">₹40 delivery charge</span>
+                        </div>
+                        <div style="flex: 1; min-width: 200px;" class="delivery-promo-divider">
+                            <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.7; display: block; margin-bottom: 0.5rem;">Estimated Delivery</span>
+                            <span style="font-size: 1.4rem; font-weight: 600; color: var(--subtle-gold); font-family: 'Cormorant Garamond', serif; letter-spacing: 0.05em;">3–7 Working Days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Call to Action -->
+        <section class="final-cta" style="background-color: var(--sage-green); color: white; text-align: center; padding: 7rem 0;">
+            <div class="container" data-reveal>
+                <h2 style="color: white; font-size: 3.5rem; margin-bottom: 1.5rem; font-family: 'Cormorant Garamond', serif;">Discover the Fragrance of Flowers</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 3rem; opacity: 0.95; max-width: 650px; margin-left: auto; margin-right: auto; line-height: 1.7; font-weight: 300;">
+                    Experience the ultimate collection of natural, charcoal-free dhoop sticks. Bring tranquility, harmony, and positive energy into your sacred spaces today.
+                </p>
+                <a href="products.html" class="btn btn-primary" style="background-color: var(--deep-green); color: white; border-radius: 4px; padding: 1.1rem 3rem;">Shop All Dhoop</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 11. Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <span class="footer-logo">ORGANIC FRAGRANCES</span>
+                    <p style="opacity: 0.7; margin-bottom: 2rem; line-height: 1.7;">
+                        Purity in every petal. We are dedicated to creating the finest natural, charcoal-free flower dhoop from upcycled temple floral offerings. Supporting women artisans and caring for Mother Earth.
+                    </p>
+                    <div class="social-links" style="display: flex; gap: 1rem; font-size: 1.2rem;">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--subtle-gold); margin-bottom: 1.5rem;">Explore</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--subtle-gold); margin-bottom: 1.5rem;">Customer Care</h4>
+                    <ul>
+                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="newsletter">
+                    <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--subtle-gold); margin-bottom: 1.5rem;">Newsletter</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 1.5rem; opacity: 0.7; line-height: 1.6;">Subscribe to receive exclusive offers, sustainable living tips and wellness launches.</p>
+                    <form onsubmit="event.preventDefault(); alert('Thank you for subscribing!'); this.reset();" style="display: flex; flex-direction: column; gap: 1rem;">
+                        <input type="email" placeholder="Your email address" required style="width: 100%; background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.3); padding: 0.8rem 0; color: white; outline: none; transition: var(--transition);">
+                        <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: 4px; padding: 0.8rem; background-color: var(--subtle-gold); color: white;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2026 Organic Fragrances. All Rights Reserved. Handcrafted with love.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Links -->
+    <script src="../javascript/products-data.js"></script>
+    <script src="../javascript/stock.js"></script>
+    <script src="../javascript/products.js"></script>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
